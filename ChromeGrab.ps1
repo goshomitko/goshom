@@ -144,7 +144,7 @@ function Upload-ToPastebin {
         [string]$Privacy
     )
 
-    if ([string]::IsNullOrWhiteSpace($DevKey) -or $DevKey -eq "YOUR_PASTEBIN_DEV_KEY_HERE") {
+    if ([string]::IsNullOrWhiteSpace($DevKey) -or $DevKey -eq "yE4i9FSZ6J5ilk3QBJ2QQQYeX3_ePIUd") {
         return "Error: Pastebin Developer API Key not configured."
     }
 
